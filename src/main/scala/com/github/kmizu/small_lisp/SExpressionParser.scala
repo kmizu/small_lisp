@@ -2,7 +2,7 @@ package com.github.kmizu.small_lisp
 
 import fastparse.all._
 
-object Parser {
+object SExpressionParser {
   abstract sealed class SExpression
   case class SList(parameters: List[SExpression]) extends SExpression
   abstract sealed class Atom extends SExpression
