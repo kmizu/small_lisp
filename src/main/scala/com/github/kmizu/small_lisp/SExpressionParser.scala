@@ -1,6 +1,7 @@
 package com.github.kmizu.small_lisp
 
 import fastparse.all._
+import AST._
 
 object SExpressionParser {
   abstract sealed class SExpression
